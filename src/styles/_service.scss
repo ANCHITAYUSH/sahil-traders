@@ -1,0 +1,18 @@
+.service-card {
+  transition: all 0.5s ease;
+
+  &:hover {
+    background-color: #0d6efd;
+    color: #fff;
+    transform: scale(1.05);
+
+    .material-symbols-outlined {
+      color: #fff;
+    }
+
+    .card-title,
+    .card-text {
+      color: #fff;
+    }
+  }
+}
